@@ -1,0 +1,29 @@
+.navigation{
+	margin-top:50px;
+}
+.navigation li.single{
+	background-color:#FB503B;
+	padding: 10px;
+	border-radius: 5px;
+	color:#FFF;
+}
+.navigation li {
+	display: inline-block;
+	padding:10px;
+}
+.navigation li a{
+	color: #FB503B;
+	text-decoration:none;
+}
+ 
+.navigation li a,.navigation li a:hover,.navigation li.active a {
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	border:1px solid #FB503B;
+	cursor: pointer;
+	padding: 10px;
+}
+.navigation li a:hover,.navigation li.active a {
+	background-color: #FB503B;
+	color:#FFFFFF;
+}
